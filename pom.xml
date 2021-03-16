@@ -15,5 +15,9 @@
         <module>passjava-question</module>
         <module>passjava-study</module>
         <module>passjava-channel</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>passjava-common</module>
+        <module>discussjava-gateway</module>
     </modules>
 </project>

@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.16.4.83:3306/discussjava_qms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: ibmp_test
+    password: XZdfjXIEsrumGrfFTmfltbtAuQCECUdl
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.16.4.84:8848
+  application:
+    name: discussjava-question
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
